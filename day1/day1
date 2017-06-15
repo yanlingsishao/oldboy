@@ -1,0 +1,14 @@
+-int
+    将字符串转换成数字
+     a = '123'
+     b = int(a)
+
+     num = "0011"
+     v = int(num,base=16)
+     print(v)
+-bit_lenght
+    # 当前数字的二进制，至少用n位表示
+    age = 34
+    r = age.bit_length()
+    print(r)
+test =
