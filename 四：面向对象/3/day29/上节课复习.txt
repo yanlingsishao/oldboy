@@ -1,0 +1,95 @@
+1.什么是继承？继承是一种创建新的类的方式
+class A:
+	pass
+	
+class B(A):
+	pass
+	
+2.如何继承-》如何寻找继承关系
+
+继承是一种‘是’的关系：
+
+人类、猪类、狗类都继承动物类，因而他们都是动物
+
+
+3.为什么要用继承？
+解决代码重用问题？
+解决的是：什么是什么的问题-》继承
+
+
+4.派生：子类继承了父类的属性，然后衍生出自己新的属性，
+		如果子类衍生出的新的属性与父类的某个属性名字相同，
+		那么再调用子类的这个属性，就以子类自己这里的为准了
+		
+		
+5.在子类中重用父类的函数:父类名.父类的函数(参数)
+
+
+
+
+6.组合对比继承来说，也是用来重用代码，但是组合描述的是一种“有”的关系
+
+老师有课程
+学生有成绩
+学生有课程
+学校有老师
+学校有学生
+
+class Course:
+	def __init__(self,name,price,period):
+		self.name=name
+		self.price=price
+		self.period=period
+		
+class Teacher:
+	def __init__(name,course):
+		self.name=name
+		self.course=course
+		
+class Student:
+	def __init__(name,course):
+		self.name=name
+		self.course=course
+python=Course('python',15800,'7m')
+t1=Teacher('egon',python)
+s1=Student('alex',python)
+
+
+print(s1.course.name)
+print(s1.course.period)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="83575aca-7fec-46e1-926d-5970a8520266" name="oldboystudy" url="https://gitee.com/yanlingsishao/oldboystudy.git">
+        <fileTransfer host="https://gitee.com/yanlingsishao/oldboystudy.git" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

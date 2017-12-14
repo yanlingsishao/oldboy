@@ -1,0 +1,23 @@
+logger warning message
+logger error message
+logger critical message
+logger warning message
+logger error message
+logger critical message
+2017-04-27 09:17:17,723 - root - WARNING - logger warning message
+2017-04-27 09:17:17,723 - root - ERROR - logger error message
+2017-04-27 09:17:17,723 - root - CRITICAL - logger critical message
+2017-04-27 09:18:50,158 - root - WARNING - logger warning message
+2017-04-27 09:18:50,158 - root - ERROR - logger error message
+2017-04-27 09:18:50,158 - root - CRITICAL - logger critical message
+2017-04-27 09:22:42,672 - root - WARNING - logger warning message
+2017-04-27 09:22:42,672 - root - ERROR - logger error message
+2017-04-27 09:22:42,672 - root - CRITICAL - logger critical message
+2017-04-27 09:23:25,512 - root - WARNING - logger warning message
+2017-04-27 09:23:25,512 - root - ERROR - logger error message
+2017-04-27 09:23:25,512 - root - CRITICAL - logger critical message
+2017-04-27 09:23:46,706 - root - DEBUG - logger debug message
+2017-04-27 09:23:46,707 - root - INFO - logger info message
+2017-04-27 09:23:46,707 - root - WARNING - logger warning message
+2017-04-27 09:23:46,707 - root - ERROR - logger error message
+2017-04-27 09:23:46,707 - root - CRITICAL - logger critical message

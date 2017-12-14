@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .clearfix{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .header{
+            width: 100%;
+            height: 44px;
+            background: #2459a2;
+        }
+        .header_box{
+            width: 1016px;
+            height: 44px;
+            /*border:1px red solid;*/
+            margin:0 auto;
+        }
+        .logo{
+            /*line-height: 44px;*/
+            float: left;
+            margin-top: 11px;
+        }
+        .option{
+            float: left;
+            line-height: 44px;
+            background: #2459a2;
+            /*margin: 0 20px;*/
+            padding-left: 16px;
+            padding-right:13px;;
+        }
+        .option:hover{
+            background:#396bb3
+        }
+        .header_box .left .option a{
+            text-decoration: none;
+            color: white;
+        }
+        .header_box .right input{
+            height: 30px;
+            float: right;
+            margin-top: 3px;
+
+        }
+        .header_box .right a{
+            text-decoration: none;
+            color: white;
+            float: right;
+            text-align: center;
+            line-height: 44px;
+            padding-left: 16px;
+            padding-right:13px;;
+        }
+        .header_box .right form{
+            float: right;
+            margin-top: 7px;
+            width: 160px;
+            height: 30px;
+            /*border:1px green solid;*/
+            background: whitesmoke;
+        }
+        .header_box .right form input{
+            /*background: ;*/
+            width: 130px;
+            height: 30px;
+            float: left;
+            margin: 0;
+            /*padding: 0;*/
+            border: 0px white;
+        }
+        .header_box .right form a{
+            width: 30px;
+            height: 30px;
+            float: right;
+            /*background: red;*/
+            margin:0;
+            padding:0;
+        }
+
+        .header_box .right form span{
+            width: 13px;
+            height: 13px;
+            float: right;
+            /*background: red;*/
+
+            background: url("icon.png") no-repeat 0 -197px;
+            margin-top: 8px;
+            margin-right: 8px;
+            padding: 0;
+        }
+        .body{
+            width: 100%;
+            height: 1160px;
+            /*background: red;*/
+            margin:0 auto;
+            overflow: hidden;
+            background: #ededed;
+        }
+        .body_box{
+            /*margin: 25px;*/
+
+            width: 1016px;
+            height: 1160px;
+
+            margin: 10px auto;
+            background: #fff;
+            margin-top: 0;
+
+            /*background: green;*/
+
+        }
+        .body_box .left{
+            float: left;
+            width: 630px;
+            height: 1010px;
+        }
+        .body .body_box .left .top{
+            width: 630px;
+            height: 43.2px;
+            /*background: gold;*/
+            border-bottom: 1px #dec7f4 solid;
+            margin-left: 15px;
+        }
+        .body .body_box .left .top a{
+            text-decoration: none;
+            color: #369;
+            font-size: 14px;
+            text-align: center;
+            line-height: 26px;
+
+
+        }
+        .body .body_box .left .top a.title_left{
+            float: left;
+            margin-left:15px;
+            width: 60px;
+            height: 26px;
+            margin-top:8px ;
+            font-size: 13px;
+            font-weight: 700;
+            /*margin-right: 5px;*/
+
+        }
+        .body .body_box .left .top a.title_right{
+            float: right;
+            margin:10px auto;
+            margin-right: 15px;
+            font-size: 13px;
+            color: #390;
+
+        }
+
+        .body .body_box .left .top a.最热{
+            background: #f0f4f8;
+            border-radius:25px;
+            color: #333;
+        }
+        .body .body_box .left .top a.即时排序{
+            color: #b4b4b4;
+        }
+        .body .body_box .left .top a.发布{
+            width: 100px;
+            height: 26px;
+            background: #84a42b;
+            color: #fff;
+            margin-right: 0;
+
+        }
+        .article li{
+            margin-left: 15px;
+            width: 630px;
+            height:120px;
+            border-bottom: 1px #dec7f4 solid;
+            list-style: none;
+            display: inline-block;
+            margin-top: 5px;
+            /*position: relative;*/
+
+        }
+        li>a img{
+            float: right;
+        }
+        .article .artical_content{
+            /*margin-right: 0;*/
+            float: left;
+            width:546.88px;
+            height: 38.4px;
+
+        }
+        .qu{
+            font-size: 12px!important;
+            text-decoration: underline!important;
+            color: grey!important;
+         }
+        .article .artical_content a{
+            text-decoration: none;
+            color: #369;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .article .artical_content a:hover{
+            text-decoration:underline;
+        }
+        .article .artical_content span{
+            font-size: 12px;
+            color: grey;
+        }
+
+        .artical_bottom{
+            display: inline-block;
+            width: 630px;
+            height: 26.8px;
+            /*background: red;*/
+            float: left;
+            margin-top:21px;
+            font-size: 13px;
+            color: #777777;
+        }
+        .artical_bottom:hover .share{
+            display: inline-block;
+        }
+        .label{
+            float: left;
+            margin-top:6px;;
+            margin-right: 10px;
+            width:36px;
+            height:16px;
+            /*background: grey;*/
+        }
+        label:hover{
+
+        }
+        .like_img{
+            /*line-height: 26.8px;*/
+            /*margin-right: 15px;*/
+            float: left;
+            width: 17px;
+            height: 18px;
+            background: url("like.png") no-repeat 0 -41px;
+            /*margin:18px auto;*/
+        }
+        .like_img:hover{
+            background: url("like.png") no-repeat 0 -21px;
+        }
+        .count{
+            float: left;
+            margin-left: 4px;
+            font-size: 16px;
+            margin-top: -1px;
+            color: #99accb;
+        }
+        .count:hover{
+            text-decoration: underline;
+            color: #369;
+
+        }
+        .comment .like_img{
+             background: url("like.png") no-repeat 0 -100px;
+        }
+        .comment .like_img:hover{
+            background: url("like.png") no-repeat 0 -80px;
+        }
+        .favorite{
+            width: 56px;
+        }
+        .favorite .like_img{
+             background: url("like.png") no-repeat 0 -160px;
+
+        }
+        .favorite .like_img:hover{
+            background: url("like.png") no-repeat 0 -140px;
+        }
+        .favorite .text{
+            color: #99accb;
+            font-weight: 400;
+        }
+        .favorite .text:hover{
+            color: #369;
+            text-decoration: underline;
+        }
+        .issue_time{
+            margin-top: 4px;
+            width: 100px;
+        }
+        .origin{
+            float: left;
+            margin-top:6px;;
+            margin-right: 5px;
+            width:66px;
+            height:16px;
+        }
+
+        .origin img{
+
+            float: left;
+        }
+        a .text{
+            float: left;
+            margin-top:2px;
+            font-size: 12px;
+        }
+        .origin b{
+            margin-top:1px;;
+            color: #99accb;
+            font-weight: 400;
+        }
+        .origin b:hover{
+            color: #369;
+            text-decoration: underline;
+        }
+        .issue_time .time{
+            color: #e59373;
+            font-weight: 400;
+        }
+        .issue_time .time:hover{
+            text-decoration: underline;
+        }
+        .issue_time .issue{
+            color: #ccc;
+            font-weight: 400px;
+        }
+        .share{
+            font-size: 12px;
+            float: left;
+            width: 180px;
+            height: 17px;
+            margin-left: 20px;
+            display: none;
+            /*background: honeydew;*/
+        }
+        .share_text{
+            float: left;
+        }
+        .share_img{
+            width: 17px;
+            height:15px;
+            float: left;
+            /*background: red;*/
+            background: url("share_icon.png") no-repeat 0 1px;
+            margin-left: 7px;
+        }
+        .sina:hover{
+            background: url("share_icon.png") no-repeat 0 -89px;
+        }
+        .douban{
+         background: url("share_icon.png") no-repeat 0 -14px;
+        }
+        .douban:hover{
+            background: url("share_icon.png") no-repeat 0 -103px;
+        }
+        .qq{
+         background: url("share_icon.png") no-repeat 0 -30px;
+        }
+        .qq:hover{
+            background: url("share_icon.png") no-repeat 0 -119px;
+        }
+
+        .renren{
+         background: url("share_icon.png") no-repeat 0 -60px;
+        }
+        .renren:hover{
+            background: url("share_icon.png") no-repeat 0 -150px;
+        }
+        .page .page_box{
+            width:532px;
+            height: 34px;
+            /*background: beige;*/
+            /*position: absolute;*/
+            /*top:12px;*/
+            float: left;
+            margin:20px auto;
+            margin-left: 15px;
+        }
+        .page li {
+            list-style: none;
+            float: left;
+        }
+        .page li a{
+        }
+        .page li .page_count{
+            text-decoration: none;
+            float: left;
+            margin-right:6px;
+            height: 34px;
+            width: 34px;
+            text-align: center;
+            border: 1px #e1e1e1 solid;
+            border-radius: 8px;
+            line-height: 34px;
+            color: #369;
+        }
+        .page li .nextpage{
+            width: 77px;
+        }
+        .page li .pagefirst{
+            border: none;
+            color: #333;
+            font-weight: 700;
+        }
+        .body_box>.right{
+            width:320px;
+            height: 1000px;
+            /*background: #2459a2;*/
+            float: right;
+        }
+        .body_box .right li{
+            list-style: none;
+            margin-top: 5px;
+        }
+        .body_box>.bottom{
+            width: 980px;
+            height: 150px;
+            /*background: green;*/
+            float: left;
+            margin-left: 20px;
+            margin-top: 35px;
+            border-top:1px solid #ccdcef;;
+        }
+        .body_box>.bottom .outer_link{
+            width: 800px;
+            height: 20px;
+            margin:10px auto;
+        }
+
+        .body_box>.bottom li{
+            list-style: none;
+            float: left;
+            font-size: 12px;
+            color: #369;
+            margin-left: 10px;
+            margin-right: 10px;
+            line-height: 20px;
+
+        }
+        .body_box>.bottom li a{
+            text-decoration: none;
+        }
+        .body_box>.bottom li a img{
+            margin-top:1px;;
+        }
+        /*.body_box>.bottom .outer_link{*/
+            /*margin-top: 64px;*/
+        /*}*/
+        .body_box>.bottom .outer_link span{
+            float: left;
+        }
+        .body_box>.bottom .lower_item div{
+            /*float: left;*/
+            width: 800px;
+            height: 20px;
+            margin:5px auto;
+            text-align: center;
+            font-size: 12px;
+
+
+        }
+        .body_box>.bottom .lower_item a{
+            text-decoration: none;
+            color: #333;
+        }
+        .gozap_logo{
+            vertical-align: -2px;
+        }
+        .turn2top a{
+            position: fixed;
+            bottom: 60px;
+            right: 200px;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: 800;
+            width: 38px;
+            height: 38px;
+            background: url("Back-to-the-top_38_78.png") no-repeat 0 0;
+        }
+        .turn2top a:hover{
+            background: url("Back-to-the-top_38_78.png") no-repeat 0 -40px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="start"></div>
+    <div class="header clearfix">
+        <div class="header_box clearfix">
+            <div class="left">
+                <div class="logo"><img src="抽屉logo.png" alt=""></div>
+                <div class="option"><a href="#">全部</a></div>
+                <div class="option"><a href="#">42区</a></div>
+                <div class="option"><a href="#"> 段子</a></div>
+                <div class="option"><a href="#">图片</a></div>
+                <div class="option"><a href="#">挨踢1024</a></div>
+                <div class="option"><a href="#"> 你问我答</a></div>
+            </div>
+            <div class="right">
+                <form action="" >
+                    <a href="#"><span></span></a>
+                    <input type="text" >
+
+
+                </form>
+
+                        <!--<span></span>-->
+                <a href="#">登录</a>
+                <a href="#">注册</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="body clearfix">
+        <div class="body_box clearfix">
+            <div class="left">
+                <div class="top clearfix">
+                    <a href="#" class="title_left 最热">最热</a>
+                    <a href="#" class="title_left 发现">发现</a>
+                    <a href="#" class="title_left 人类发布">人类发布</a>
+
+                    <a href="#" class="title_right 发布">+ 发布</a>
+                    <a href="#" class="title_right 3天">3天</a>
+                    <a href="#" class="title_right 24小时">24小时</a>
+                    <a href="#" class="title_right 即时排序">即时排序</a>
+                </div>
+                 <div class="article">
+                     <ul>
+                        <li>
+                            <div class="artical_content">
+                                <a href="#" class="artical_title">
+                                [杂技孤儿]32个孩子，从6岁到7岁，想离开就离开，走到记忆之外，没有什么需要膜拜。想回来就回来，旅行后才明白，我把从前留在境外。我不看将来，也不问未来。境外莫文蔚不散不见都投奔到河南濮阳县南环的张挥公园里。。。
+                                </a>
+                                <span class="artical_address" >-international.caixin.com</span>
+                                <a href="#" class="qu">42区</a>
+                            </div>
+                            <a href="#"><img src="1.jpg" alt=""></a>
+
+                            <a href="#" class="artical_bottom">
+                                <span class="like label">
+                                    <span class="like_img"></span>
+                                    <b class="count">3</b>
+                                </span>
+                                <span class="comment label">
+                                    <span class="like_img"></span>
+                                    <b class="count">1</b>
+                                </span>
+                                <span class="favorite label" >
+                                    <span class="like_img"></span>
+                                    <b class="text">私藏</b>
+                                </span>
+                                <span class="origin label">
+                                    <img src="origin.jpg" alt="">
+                                    <b class="text">财新网</b>
+                                </span>
+                                <span class="issue_time label">
+                                    <b class="text time">2小时6分钟前</b>
+                                    <b class="text issue" >发布</b>
+                                </span>
+                                <span class="share label">
+                                    <b class="share_text">分享到</b>
+                                    <span class="share_img sina"></span>
+                                    <span class="share_img douban"></span>
+                                    <span class="share_img qq"></span>
+                                    <span class="share_img renren" ></span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="artical_content">
+                                <a href="#" class="artical_title">
+                                [杂技孤儿]32个孩子，从6岁到7岁，想离开就离开，走到记忆之外，没有什么需要膜拜。想回来就回来，旅行后才明白，我把从前留在境外。我不看将来，也不问未来。境外莫文蔚不散不见都投奔到河南濮阳县南环的张挥公园里。。。
+                                </a>
+                                <span class="artical_address" >-international.caixin.com</span>
+                                <a href="#" class="qu">42区</a>
+                            </div>
+                            <a href="#"><img src="1.jpg" alt=""></a>
+
+                            <a href="#" class="artical_bottom">
+                                <span class="like label">
+                                    <span class="like_img"></span>
+                                    <b class="count">3</b>
+                                </span>
+                                <span class="comment label">
+                                    <span class="like_img"></span>
+                                    <b class="count">1</b>
+                                </span>
+                                <span class="favorite label" >
+                                    <span class="like_img"></span>
+                                    <b class="text">私藏</b>
+                                </span>
+                                <span class="origin label">
+                                    <img src="origin.jpg" alt="">
+                                    <b class="text">财新网</b>
+                                </span>
+                                <span class="issue_time label">
+                                    <b class="text time">2小时6分钟前</b>
+                                    <b class="text issue" >发布</b>
+                                </span>
+                                <span class="share label">
+                                    <b class="share_text">分享到</b>
+                                    <span class="share_img sina"></span>
+                                    <span class="share_img douban"></span>
+                                    <span class="share_img qq"></span>
+                                    <span class="share_img renren" ></span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="artical_content">
+                                <a href="#" class="artical_title">
+                                [杂技孤儿]32个孩子，从6岁到7岁，想离开就离开，走到记忆之外，没有什么需要膜拜。想回来就回来，旅行后才明白，我把从前留在境外。我不看将来，也不问未来。境外莫文蔚不散不见都投奔到河南濮阳县南环的张挥公园里。。。
+                                </a>
+                                <span class="artical_address" >-international.caixin.com</span>
+                                <a href="#" class="qu">42区</a>
+                            </div>
+                            <a href="#"><img src="1.jpg" alt=""></a>
+
+                            <a href="#" class="artical_bottom">
+                                <span class="like label">
+                                    <span class="like_img"></span>
+                                    <b class="count">3</b>
+                                </span>
+                                <span class="comment label">
+                                    <span class="like_img"></span>
+                                    <b class="count">1</b>
+                                </span>
+                                <span class="favorite label" >
+                                    <span class="like_img"></span>
+                                    <b class="text">私藏</b>
+                                </span>
+                                <span class="origin label">
+                                    <img src="origin.jpg" alt="">
+                                    <b class="text">财新网</b>
+                                </span>
+                                <span class="issue_time label">
+                                    <b class="text time">2小时6分钟前</b>
+                                    <b class="text issue" >发布</b>
+                                </span>
+                                <span class="share label">
+                                    <b class="share_text">分享到</b>
+                                    <span class="share_img sina"></span>
+                                    <span class="share_img douban"></span>
+                                    <span class="share_img qq"></span>
+                                    <span class="share_img renren" ></span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="artical_content">
+                                <a href="#" class="artical_title">
+                                [杂技孤儿]32个孩子，从6岁到7岁，想离开就离开，走到记忆之外，没有什么需要膜拜。想回来就回来，旅行后才明白，我把从前留在境外。我不看将来，也不问未来。境外莫文蔚不散不见都投奔到河南濮阳县南环的张挥公园里。。。
+                                </a>
+                                <span class="artical_address" >-international.caixin.com</span>
+                                <a href="#" class="qu">42区</a>
+                            </div>
+                            <a href="#"><img src="1.jpg" alt=""></a>
+
+                            <a href="#" class="artical_bottom">
+                                <span class="like label">
+                                    <span class="like_img"></span>
+                                    <b class="count">3</b>
+                                </span>
+                                <span class="comment label">
+                                    <span class="like_img"></span>
+                                    <b class="count">1</b>
+                                </span>
+                                <span class="favorite label" >
+                                    <span class="like_img"></span>
+                                    <b class="text">私藏</b>
+                                </span>
+                                <span class="origin label">
+                                    <img src="origin.jpg" alt="">
+                                    <b class="text">财新网</b>
+                                </span>
+                                <span class="issue_time label">
+                                    <b class="text time">2小时6分钟前</b>
+                                    <b class="text issue" >发布</b>
+                                </span>
+                                <span class="share label">
+                                    <b class="share_text">分享到</b>
+                                    <span class="share_img sina"></span>
+                                    <span class="share_img douban"></span>
+                                    <span class="share_img qq"></span>
+                                    <span class="share_img renren" ></span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="artical_content">
+                                <a href="#" class="artical_title">
+                                [杂技孤儿]32个孩子，从6岁到7岁，想离开就离开，走到记忆之外，没有什么需要膜拜。想回来就回来，旅行后才明白，我把从前留在境外。我不看将来，也不问未来。境外莫文蔚不散不见都投奔到河南濮阳县南环的张挥公园里。。。
+                                </a>
+                                <span class="artical_address" >-international.caixin.com</span>
+                                <a href="#" class="qu">42区</a>
+                            </div>
+                            <a href="#"><img src="1.jpg" alt=""></a>
+
+                            <a href="#" class="artical_bottom">
+                                <span class="like label">
+                                    <span class="like_img"></span>
+                                    <b class="count">3</b>
+                                </span>
+                                <span class="comment label">
+                                    <span class="like_img"></span>
+                                    <b class="count">1</b>
+                                </span>
+                                <span class="favorite label" >
+                                    <span class="like_img"></span>
+                                    <b class="text">私藏</b>
+                                </span>
+                                <span class="origin label">
+                                    <img src="origin.jpg" alt="">
+                                    <b class="text">财新网</b>
+                                </span>
+                                <span class="issue_time label">
+                                    <b class="text time">2小时6分钟前</b>
+                                    <b class="text issue" >发布</b>
+                                </span>
+                                <span class="share label">
+                                    <b class="share_text">分享到</b>
+                                    <span class="share_img sina"></span>
+                                    <span class="share_img douban"></span>
+                                    <span class="share_img qq"></span>
+                                    <span class="share_img renren" ></span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="artical_content">
+                                <a href="#" class="artical_title">
+                                [杂技孤儿]32个孩子，从6岁到7岁，想离开就离开，走到记忆之外，没有什么需要膜拜。想回来就回来，旅行后才明白，我把从前留在境外。我不看将来，也不问未来。境外莫文蔚不散不见都投奔到河南濮阳县南环的张挥公园里。。。
+                                </a>
+                                <span class="artical_address" >-international.caixin.com</span>
+                                <a href="#" class="qu">42区</a>
+                            </div>
+                            <a href="#"><img src="1.jpg" alt=""></a>
+
+                            <a href="#" class="artical_bottom">
+                                <span class="like label">
+                                    <span class="like_img"></span>
+                                    <b class="count">3</b>
+                                </span>
+                                <span class="comment label">
+                                    <span class="like_img"></span>
+                                    <b class="count">1</b>
+                                </span>
+                                <span class="favorite label" >
+                                    <span class="like_img"></span>
+                                    <b class="text">私藏</b>
+                                </span>
+                                <span class="origin label">
+                                    <img src="origin.jpg" alt="">
+                                    <b class="text">财新网</b>
+                                </span>
+                                <span class="issue_time label">
+                                    <b class="text time">2小时6分钟前</b>
+                                    <b class="text issue" >发布</b>
+                                </span>
+                                <span class="share label">
+                                    <b class="share_text">分享到</b>
+                                    <span class="share_img sina"></span>
+                                    <span class="share_img douban"></span>
+                                    <span class="share_img qq"></span>
+                                    <span class="share_img renren" ></span>
+                                </span>
+                            </a>
+                        </li>
+                         <li>
+                            <div class="artical_content">
+                                <a href="#" class="artical_title">
+                                [杂技孤儿]32个孩子，从6岁到7岁，想离开就离开，走到记忆之外，没有什么需要膜拜。想回来就回来，旅行后才明白，我把从前留在境外。我不看将来，也不问未来。境外莫文蔚不散不见都投奔到河南濮阳县南环的张挥公园里。。。
+                                </a>
+                                <span class="artical_address" >-international.caixin.com</span>
+                                <a href="#" class="qu">42区</a>
+                            </div>
+                            <a href="#"><img src="1.jpg" alt=""></a>
+
+                            <a href="#" class="artical_bottom">
+                                <span class="like label">
+                                    <span class="like_img"></span>
+                                    <b class="count">3</b>
+                                </span>
+                                <span class="comment label">
+                                    <span class="like_img"></span>
+                                    <b class="count">1</b>
+                                </span>
+                                <span class="favorite label" >
+                                    <span class="like_img"></span>
+                                    <b class="text">私藏</b>
+                                </span>
+                                <span class="origin label">
+                                    <img src="origin.jpg" alt="">
+                                    <b class="text">财新网</b>
+                                </span>
+                                <span class="issue_time label">
+                                    <b class="text time">2小时6分钟前</b>
+                                    <b class="text issue" >发布</b>
+                                </span>
+                                <span class="share label">
+                                    <b class="share_text">分享到</b>
+                                    <span class="share_img sina"></span>
+                                    <span class="share_img douban"></span>
+                                    <span class="share_img qq"></span>
+                                    <span class="share_img renren" ></span>
+                                </span>
+                            </a>
+                        </li>
+                     </ul>
+                 </div>
+                <div class="page clearfix">
+                      <div class="page_box ">
+                            <ul>
+                                <li><span class="page_count pagefirst">1</span></li>
+                                <li><a href="#" class="page_count">2</a></li>
+                                <li><a href="#" class="page_count">3</a></li>
+                                <li><a href="#" class="page_count">4</a></li>
+                                <li><a href="#" class="page_count">5</a></li>
+                                <li><a href="#" class="page_count">6</a></li>
+                                <li><a href="#" class="page_count">7</a></li>
+                                <li><a href="#" class="page_count">8</a></li>
+                                <li><a href="#" class="page_count">9</a></li>
+                                <li><a href="#" class="page_count">10</a></li>
+                                <li><a href="#" class="page_count nextpage">下一页</a></li>
+                            </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right">
+                <ul>
+                    <li><img src="report_right.jpg" alt="" class="right_img"></li>
+                    <li><img src="homepage_right.png" alt="" class="right_img"></li>
+                    <li><img src="chen_right.jpg" alt="" class="right_img"></li>
+                    <li><img src="erwema_right.jpg" alt="" class="right_img"></li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <div class="outer_link">
+                    <ul>
+                    <li><a href="#" class="bottom_text">关于我们</a></li>
+                    <span>|</span>
+                    <li><a href="#" class="bottom_text">联系我们</a></li>
+                    <span>|</span>
+                    <li><a href="#" class="bottom_text">服务条款</a></li>
+                    <span>|</span>
+                    <li><a href="#" class="bottom_text">隐私政策</a></li>
+                    <span>|</span>
+                    <li><a href="#" class="bottom_text">抽屉新热榜工具</a></li>
+                    <span>|</span>
+                    <li><a href="#" class="bottom_text">下载客户端</a></li>
+                    <span>|</span>
+                    <li><a href="#" class="bottom_text">意见与反馈</a></li>
+                    <span>|</span>
+                    <li><a href="#" class="bottom_text">友情链接</a></li>
+                    <span>|</span>
+                    <li><a href="#" class="bottom_text">公告</a></li>
+                    <li><a href="#" class="bottom_text"><img src="rss.png" alt=""></a></li>
+                </ul>
+
+                </div>
+                <div class="lower_item">
+                    <div class="row1">
+                        <a href="#"><img src="gozap-logo.png" alt=""class="gozap_logo"></a>
+                        <span>旗下站点 &copy2017 chouti.com</span>
+                        <span><a href="#">京ICP备052302号-3 京公网安备 397272979</a></span>
+                    </div>
+                    <div class="row2">
+                        <span>违法和不良信息举报： 电话： 13021552997 &nbsp邮箱：zhangcan121@163.com</span>
+                    </div>
+                    <div class="row3">
+                        <span>版权所有：北京格物致知科技有限公司</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="turn2top">
+        <a href="#start"></a>
+    </div>
+</body>
+</html>
+
+图片都是本地图片

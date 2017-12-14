@@ -1,0 +1,63 @@
+面向对象的程序设计OOD
+	找对象------->找类（归纳对象共同的特征与技能，还有每个对象独有的特征）
+面向对象编程OOP
+	先定义类------->实例化出对象
+	
+	
+
+#OOD:定义学生类
+特征：共同国籍'China'
+技能：查看成绩
+
+独有的特征：ID、名字，性别，省
+
+
+#OOP
+class Student:
+	country='China'
+	def __init__(self,ID,NAME,SEX,PROVINCE):
+		self.id=ID 
+		self.name=NAME
+		self.sex=SEX
+		self.province=PROVINCE
+	def search_score(self):
+		print('tell score')
+	def study(self):
+		print('study')	
+		
+s1=Student('371818181818181','cobila','female','shanxi')
+s2=Student('371811238181818181','co123bila','female','shanxi')
+
+
+s1.search_score()
+s2.search_score()
+
+s1.study()
+
+
+
+
+#Student.__init__(s1,'371818181818181','cobila','female','shanxi')
+s1.id='371818181818181'
+s1.name='cobila'
+s1.sex='female'
+s1.province='shanxi'
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+

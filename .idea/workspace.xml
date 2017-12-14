@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="d91c31a3-4f58-46a9-a01e-20dc6243a028" name="Default" comment="选课系统发布">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/bin/start.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/conf/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/conf/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/db/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/lib/common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/log/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/manager.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/readme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/main/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/main/admin_main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/main/choose_progrem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/main/student_main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/main/studyrecord_main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/main/teacher_main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/admin_ser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/class_ser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/classrecord_ser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/course_ser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/manager_ser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/school_ser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/student_ser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/teacher_ser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cses/src/services/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atomcatpublish/1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/.idea/course system.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/bin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/bin/course.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/core/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/core/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/core/uid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course system/db/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/execl/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/execl/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cses/db/studyrecord.db" afterPath="$PROJECT_DIR$/Cses/db/studyrecord.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cses/db/teacher.db" afterPath="$PROJECT_DIR$/Cses/db/teacher.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cses/src/main/admin_main.py" afterPath="$PROJECT_DIR$/Cses/src/main/admin_main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cses/src/services/__init__.py" afterPath="$PROJECT_DIR$/Cses/src/services/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py" afterPath="$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py" />
+    </list>
+    <list id="a7e35b6a-3201-437e-8b00-2c2649f51c1c" name="Failed commit: Default" comment="选课系统发布">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/S4.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/a.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/alex使用者.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/b.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/dic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/fengzhuang.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/ftp_client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/m1/t.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/m2/s1/x.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/动态导入模块.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/包装标准类型.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/双下划线开头的attr方法.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/反射.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/多态.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/封装示范一.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www/授权.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Azure-test/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Azure-test/test1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modulestudy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modulestudy/paramikostudy/simple1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modulestudy/paramikostudy/simple2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modulestudy/paramikostudy/simple3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modulestudy/paramikostudy/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atomcatpublish/Module/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atomcatpublish/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/azure/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day2/function1/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day2/function1/file_handling.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day2/function1/permissions_info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day3/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day3/本节笔记" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/mysite/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/mysite/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/mysite/.idea/mysite.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/mysite/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/sockclient.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/sockserver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/classsadmin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/class数据属性.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/doc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/oldboyschool/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/oldboyschool/manager.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/slots属性.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/testflask.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/test爬.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/在子类中调用父类的方法.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/多态.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/多继承.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/封装.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/接口继承.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/描述符.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/类与对象" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/类的装饰器实现.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/继承.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/自定义format.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/迭代器.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/面向对象高阶/1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/面向对象高阶/__setattr__delattr__getattr__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/面向对象高阶/isinstance_and_issubclass.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/面向对象高阶/反射.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/bin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/conf/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/conf/config.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/module/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/module/ftp_con.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/module/get_conf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/module/handle_file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/module/my_logger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/module/mysql_conn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ftpindb/module/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/bin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/bin/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/conf/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/data/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/jerry_master/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/jerry_master/test_fabric.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/jerry_master/tomcatpub.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/jerry_master/tomcat、.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/logs/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry/module/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/trans_action.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/ATM/conf/money_code" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/ATM/data/user_info/adm.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/ATM/logs/AMT_LOG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/ReadMe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/06902F0D-3F71-03C1-6722-651A8F32D035.odttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/1E18243D-1813-0EAC-B56B-CA06EC00944A.odttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/Silverlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/Silverlight.supportedUserAgent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/filelist.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/frameset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/fullpage.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/go.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/maximize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/minimize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/panminus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/panplus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/png_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/png_1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/png_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/png_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/png_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/tick-foc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/tick-off.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/tick-on.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/toc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/toc2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/toolbar.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/visio.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/widgets.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/xaml_1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/xaml_1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/xaml_1.xaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/xaml_2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/xaml_2.xaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.files/zoom.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/README/绘图1.htm" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/account.py" afterPath="$PROJECT_DIR$/ATM/ATM/atm_back/account.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/actions.py" afterPath="$PROJECT_DIR$/ATM/ATM/atm_back/actions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/admin.py" afterPath="$PROJECT_DIR$/ATM/ATM/atm_back/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/auth.py" afterPath="$PROJECT_DIR$/ATM/ATM/atm_back/auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/huabei.py" afterPath="$PROJECT_DIR$/ATM/ATM/atm_back/huabei.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/logger.py" afterPath="$PROJECT_DIR$/ATM/ATM/atm_back/logger.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/login.py" afterPath="$PROJECT_DIR$/ATM/ATM/atm_back/login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/manager.py" afterPath="$PROJECT_DIR$/ATM/ATM/atm_back/manager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/atm_back/userfunction.py" afterPath="$PROJECT_DIR$/ATM/ATM/atm_back/userfunction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/bin/atm.py" afterPath="$PROJECT_DIR$/ATM/ATM/bin/atm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/conf/config.cfg" afterPath="$PROJECT_DIR$/ATM/ATM/conf/config.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ATM/ATM/data/user_info/config.cfg" afterPath="$PROJECT_DIR$/ATM/ATM/data/user_info/config.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day1/Readme.txt" afterPath="$PROJECT_DIR$/day1/Readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day2/__init__.py" afterPath="$PROJECT_DIR$/day2/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day2/log_study.py" afterPath="$PROJECT_DIR$/day2/log_study.py" />
+    </list>
+    <ignored path="S4.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/S4$file_handling.coverage" NAME="file_handling Coverage Results" MODIFIED="1507629002375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2/function1" />
+    <SUITE FILE_PATH="coverage/S4$account.coverage" NAME="account Coverage Results" MODIFIED="1497877093454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm_back" />
+    <SUITE FILE_PATH="coverage/S4$actions.coverage" NAME="actions Coverage Results" MODIFIED="1496734249055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/module" />
+    <SUITE FILE_PATH="coverage/S4$isinstance_and_issubclass.coverage" NAME="isinstance_and_issubclass Coverage Results" MODIFIED="1505808036905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5/面向对象高阶" />
+    <SUITE FILE_PATH="coverage/S4$baolei.coverage" NAME="baolei Coverage Results" MODIFIED="1496639637142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/S4$testflask.coverage" NAME="testflask Coverage Results" MODIFIED="1503902150468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/S4$user_info.coverage" NAME="user_info Coverage Results" MODIFIED="1494410163506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$class_ser.coverage" NAME="class_ser Coverage Results" MODIFIED="1507863923682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src/services" />
+    <SUITE FILE_PATH="coverage/S4$ATM.coverage" NAME="ATM Coverage Results" MODIFIED="1496728045584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/S4$test11.coverage" NAME="test11 Coverage Results" MODIFIED="1496212833812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/S4$log_study.coverage" NAME="log_study Coverage Results" MODIFIED="1496726694313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/S4$atm.coverage" NAME="atm Coverage Results" MODIFIED="1506677534574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/bin" />
+    <SUITE FILE_PATH="coverage/S4$login__1_.coverage" NAME="login (1) Coverage Results" MODIFIED="1497671103334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm_back" />
+    <SUITE FILE_PATH="coverage/S4$sockserver.coverage" NAME="sockserver Coverage Results" MODIFIED="1501653329043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/S4$shop_cart.coverage" NAME="shop_cart Coverage Results" MODIFIED="1495163437302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$school_ser.coverage" NAME="school_ser Coverage Results" MODIFIED="1506681220322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src/services" />
+    <SUITE FILE_PATH="coverage/S4$admin_main__1_.coverage" NAME="admin_main (1) Coverage Results" MODIFIED="1507529073031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Cses/Cses/src/main" />
+    <SUITE FILE_PATH="coverage/S4$admin__1_.coverage" NAME="admin (1) Coverage Results" MODIFIED="1506594438819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src" />
+    <SUITE FILE_PATH="coverage/S4$admin_ser.coverage" NAME="admin_ser Coverage Results" MODIFIED="1507801957165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src/services" />
+    <SUITE FILE_PATH="coverage/S4$cource.coverage" NAME="cource Coverage Results" MODIFIED="1508132631838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course system/bin" />
+    <SUITE FILE_PATH="coverage/S4$get_name.coverage" NAME="get_name Coverage Results" MODIFIED="1499930719345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aliyun" />
+    <SUITE FILE_PATH="coverage/S4$.coverage" NAME="类的装饰器实现 Coverage Results" MODIFIED="1506669014385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/S4$redisUtil.coverage" NAME="redisUtil Coverage Results" MODIFIED="1503977602726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/crm-app/common" />
+    <SUITE FILE_PATH="coverage/S4$admin.coverage" NAME="admin Coverage Results" MODIFIED="1506588414199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSES/src" />
+    <SUITE FILE_PATH="coverage/S4$jpush_sender.coverage" NAME="jpush_sender Coverage Results" MODIFIED="1501925651603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/Python_3.4.x/newP2p-py/common" />
+    <SUITE FILE_PATH="coverage/S4$three_menu_v4.coverage" NAME="three_menu_v4 Coverage Results" MODIFIED="1495013673958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonstudy-master/week02-胡湘林" />
+    <SUITE FILE_PATH="coverage/S4$main.coverage" NAME="main Coverage Results" MODIFIED="1496739503334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/module" />
+    <SUITE FILE_PATH="coverage/S4$user.coverage" NAME="user Coverage Results" MODIFIED="1494901460950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$new_payment_remind.coverage" NAME="new_payment_remind Coverage Results" MODIFIED="1501926193156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/Python_3.4.x/newP2p-py/common" />
+    <SUITE FILE_PATH="coverage/S4$day1.coverage" NAME="day1 Coverage Results" MODIFIED="1495097442044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$get_url.coverage" NAME="get_url Coverage Results" MODIFIED="1499311546276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_python" />
+    <SUITE FILE_PATH="coverage/S4$__1_.coverage" NAME="多态 (1) Coverage Results" MODIFIED="1504174547899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4.随到随学Python全栈-面向对象/26/www" />
+    <SUITE FILE_PATH="coverage/S4$auto_account_check.coverage" NAME="auto_account_check Coverage Results" MODIFIED="1499421274551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_python" />
+    <SUITE FILE_PATH="coverage/S4$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1499667476163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Azure-test" />
+    <SUITE FILE_PATH="coverage/S4$map.coverage" NAME="map函数 Coverage Results" MODIFIED="1495782317381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/S4$class_test.coverage" NAME="class_test Coverage Results" MODIFIED="1498638797463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm_back" />
+    <SUITE FILE_PATH="coverage/S4$bulk_sms.coverage" NAME="bulk_sms Coverage Results" MODIFIED="1499423037875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_python" />
+    <SUITE FILE_PATH="coverage/S4$json_handle.coverage" NAME="json_handle Coverage Results" MODIFIED="1498125302411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm_back" />
+    <SUITE FILE_PATH="coverage/S4$mysql_conn.coverage" NAME="mysql_conn Coverage Results" MODIFIED="1501905958455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/Python_3.4.x/newP2p-py/conf" />
+    <SUITE FILE_PATH="coverage/S4$ftp_con.coverage" NAME="ftp_con Coverage Results" MODIFIED="1501136570876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ftpindb/module" />
+    <SUITE FILE_PATH="coverage/S4$tomcat.coverage" NAME="tomcat、 Coverage Results" MODIFIED="1502689717766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jerry/jerry_master" />
+    <SUITE FILE_PATH="coverage/S4$simulator_landing.coverage" NAME="simulator_landing Coverage Results" MODIFIED="1495101195885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1508124714262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/execl" />
+    <SUITE FILE_PATH="coverage/S4$enum.coverage" NAME="enum Coverage Results" MODIFIED="1497865112946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm_back" />
+    <SUITE FILE_PATH="coverage/S4$logger.coverage" NAME="logger Coverage Results" MODIFIED="1497876970768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm_back" />
+    <SUITE FILE_PATH="coverage/S4$insert_mail.coverage" NAME="insert_mail Coverage Results" MODIFIED="1501906142673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/Python_3.4.x/newP2p-py/mail" />
+    <SUITE FILE_PATH="coverage/S4$abandon_remind.coverage" NAME="abandon_remind Coverage Results" MODIFIED="1501923795693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/Python_3.4.x/newP2p-py/common" />
+    <SUITE FILE_PATH="coverage/S4$doc.coverage" NAME="doc Coverage Results" MODIFIED="1506504302579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/S4$simulator_landing__1_.coverage" NAME="simulator_landing (1) Coverage Results" MODIFIED="1495512403362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1/王琦渊day3" />
+    <SUITE FILE_PATH="coverage/S4$__setattr__delattr__getattr__.coverage" NAME="__setattr__delattr__getattr__ Coverage Results" MODIFIED="1505893350322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5/面向对象高阶" />
+    <SUITE FILE_PATH="coverage/S4$manage.coverage" NAME="manage Coverage Results" MODIFIED="1504145365591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/ttsx_bj6/ttsx" />
+    <SUITE FILE_PATH="coverage/S4$manager_ser.coverage" NAME="manager_ser Coverage Results" MODIFIED="1507540462408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src/services" />
+    <SUITE FILE_PATH="coverage/S4$redisUtil__1_.coverage" NAME="redisUtil (1) Coverage Results" MODIFIED="1503979910233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/S4$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1499166146904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/bin" />
+    <SUITE FILE_PATH="coverage/S4$payment.coverage" NAME="payment副本 Coverage Results" MODIFIED="1499397401465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_python" />
+    <SUITE FILE_PATH="coverage/S4$tuple.coverage" NAME="tuple实例 Coverage Results" MODIFIED="1494840620887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$sms_sender.coverage" NAME="sms_sender Coverage Results" MODIFIED="1502183238824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/Python_3.4.x/newP2p-py/sms" />
+    <SUITE FILE_PATH="coverage/S4$test.coverage" NAME="test Coverage Results" MODIFIED="1507690538081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src/services" />
+    <SUITE FILE_PATH="coverage/S4$practice1.coverage" NAME="practice1 Coverage Results" MODIFIED="1495432728596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1/王琦渊day3" />
+    <SUITE FILE_PATH="coverage/S4$azure_lb_handle.coverage" NAME="azure_lb_handle Coverage Results" MODIFIED="1506654852308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/azure" />
+    <SUITE FILE_PATH="coverage/S4$simple2.coverage" NAME="simple2 Coverage Results" MODIFIED="1500364265583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulestudy/paramikostudy" />
+    <SUITE FILE_PATH="coverage/S4$pykaf__1_.coverage" NAME="pykaf (1) Coverage Results" MODIFIED="1505790573443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSES" />
+    <SUITE FILE_PATH="coverage/S4$format.coverage" NAME="自定义format Coverage Results" MODIFIED="1506504402110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/S4$handle_file.coverage" NAME="handle_file Coverage Results" MODIFIED="1501151317363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ftpindb/module" />
+    <SUITE FILE_PATH="coverage/S4$my_logger.coverage" NAME="my_logger Coverage Results" MODIFIED="1503978133548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/crm-app/common" />
+    <SUITE FILE_PATH="coverage/S4$dict.coverage" NAME="dict实例 Coverage Results" MODIFIED="1494899618937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$pykaf.coverage" NAME="pykaf Coverage Results" MODIFIED="1505790130173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/S4$list.coverage" NAME="list实例 Coverage Results" MODIFIED="1494831677390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$tomcatpub.coverage" NAME="tomcatpub Coverage Results" MODIFIED="1502692323504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jerry/jerry_master" />
+    <SUITE FILE_PATH="coverage/S4$simple3.coverage" NAME="simple3 Coverage Results" MODIFIED="1500371922475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulestudy/paramikostudy" />
+    <SUITE FILE_PATH="coverage/S4$admin_main.coverage" NAME="admin_main Coverage Results" MODIFIED="1508130079100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src/main" />
+    <SUITE FILE_PATH="coverage/S4$ThreeMenu.coverage" NAME="ThreeMenu Coverage Results" MODIFIED="1495013948745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonstudy-master/day01/three_menu" />
+    <SUITE FILE_PATH="coverage/S4$start.coverage" NAME="start Coverage Results" MODIFIED="1504071993494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/crm-app" />
+    <SUITE FILE_PATH="coverage/S4$module_study.coverage" NAME="module_study Coverage Results" MODIFIED="1496647155660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/S4$signUtil.coverage" NAME="signUtil Coverage Results" MODIFIED="1499323680282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_python" />
+    <SUITE FILE_PATH="coverage/S4$slots.coverage" NAME="slots属性 Coverage Results" MODIFIED="1506564099018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/S4$test_fabric.coverage" NAME="test_fabric Coverage Results" MODIFIED="1502689689196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jerry/jerry_master" />
+    <SUITE FILE_PATH="coverage/S4$shop_cart__1_.coverage" NAME="shop_cart (1) Coverage Results" MODIFIED="1495689716738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1/王琦渊day3" />
+    <SUITE FILE_PATH="coverage/S4$userfunction.coverage" NAME="userfunction Coverage Results" MODIFIED="1497670870174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm_back" />
+    <SUITE FILE_PATH="coverage/S4$1.coverage" NAME="1 Coverage Results" MODIFIED="1505466835822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSES" />
+    <SUITE FILE_PATH="coverage/S4$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1500279351563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jerry/bin" />
+    <SUITE FILE_PATH="coverage/S4$login.coverage" NAME="login Coverage Results" MODIFIED="1497404211985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm-back" />
+    <SUITE FILE_PATH="coverage/S4$auth.coverage" NAME="auth Coverage Results" MODIFIED="1497843524300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm_back" />
+    <SUITE FILE_PATH="coverage/S4$manager.coverage" NAME="manager Coverage Results" MODIFIED="1506585417334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSES" />
+    <SUITE FILE_PATH="coverage/S4$eg.coverage" NAME="装饰器eg Coverage Results" MODIFIED="1497426321318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/S4$settings.coverage" NAME="settings Coverage Results" MODIFIED="1507543913345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/conf" />
+    <SUITE FILE_PATH="coverage/S4$huabei.coverage" NAME="huabei Coverage Results" MODIFIED="1499157953531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm_back" />
+    <SUITE FILE_PATH="coverage/S4$sockclient.coverage" NAME="sockclient Coverage Results" MODIFIED="1501653333655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/S4$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1507544100625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/conf" />
+    <SUITE FILE_PATH="coverage/S4$get_name__1_.coverage" NAME="get_name (1) Coverage Results" MODIFIED="1500024356928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/azure" />
+    <SUITE FILE_PATH="coverage/S4$trans_action.coverage" NAME="trans_action Coverage Results" MODIFIED="1497231458972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/atm-back" />
+    <SUITE FILE_PATH="coverage/S4$simple1.coverage" NAME="simple1 Coverage Results" MODIFIED="1500370897848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulestudy/paramikostudy" />
+    <SUITE FILE_PATH="coverage/S4$three_lv_menu.coverage" NAME="three_lv menu Coverage Results" MODIFIED="1495101199916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$classrecord_ser.coverage" NAME="classrecord_ser Coverage Results" MODIFIED="1506681737621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src/services" />
+    <SUITE FILE_PATH="coverage/S4$studyrecord_ser.coverage" NAME="studyrecord_ser Coverage Results" MODIFIED="1508126428464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src/services" />
+    <SUITE FILE_PATH="coverage/S4$three_lv.coverage" NAME="three_lv Coverage Results" MODIFIED="1495511426172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1/王琦渊day3" />
+    <SUITE FILE_PATH="coverage/S4$jiami.coverage" NAME="jiami Coverage Results" MODIFIED="1496731338621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ATM/ATM/module" />
+    <SUITE FILE_PATH="coverage/S4$bin.coverage" NAME="bin Coverage Results" MODIFIED="1494994034526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonstudy-master/week07-胡湘林/FTP_client/bin" />
+    <SUITE FILE_PATH="coverage/S4$set.coverage" NAME="set实例 Coverage Results" MODIFIED="1494899641479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/S4$file_process.coverage" NAME="file_process Coverage Results" MODIFIED="1496204701026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/S4$teacher_ser.coverage" NAME="teacher_ser Coverage Results" MODIFIED="1506683864488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cses/src/services" />
+    <SUITE FILE_PATH="coverage/S4$admin_main__2_.coverage" NAME="admin_main (2) Coverage Results" MODIFIED="1507530514083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Cses/src/main" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="S4">
+      <favorite_root url="file://$PROJECT_DIR$/oldboystudy" module="S4" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="school_ser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cses/src/services/school_ser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course system/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course system/db/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course system/core/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course system/core/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="e#232#245#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uid.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course system/core/uid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#232#246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course system/bin/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course system/bin/course.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_ser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cses/src/services/admin_ser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="378" column="21" selection-start-line="378" selection-start-column="21" selection-end-line="378" selection-end-column="21" />
+              <folding>
+                <element signature="e#96#109#0" expanded="true" />
+                <element signature="e#618#888#0" expanded="false" />
+                <element signature="e#925#1201#0" expanded="false" />
+                <element signature="e#1228#1553#0" expanded="false" />
+                <element signature="e#1580#1827#0" expanded="false" />
+                <element signature="e#1854#2094#0" expanded="false" />
+                <element signature="e#2184#2586#0" expanded="false" />
+                <element signature="e#2635#2914#0" expanded="false" />
+                <element signature="e#3226#3780#0" expanded="false" />
+                <element signature="e#3860#4453#0" expanded="false" />
+                <element signature="e#4533#4987#0" expanded="false" />
+                <element signature="e#5088#5769#0" expanded="false" />
+                <element signature="e#6970#7468#0" expanded="false" />
+                <element signature="e#7511#8182#0" expanded="false" />
+                <element signature="e#8222#8749#0" expanded="false" />
+                <element signature="e#8794#9021#0" expanded="false" />
+                <element signature="e#9062#9625#0" expanded="false" />
+                <element signature="e#9664#10488#0" expanded="false" />
+                <element signature="e#10538#11581#0" expanded="false" />
+                <element signature="e#11628#12546#0" expanded="false" />
+                <element signature="e#12586#12719#0" expanded="false" />
+                <element signature="e#12635#12719#0" expanded="false" />
+                <element signature="e#12756#13786#0" expanded="false" />
+                <element signature="e#14016#14036#0" expanded="false" />
+                <element signature="e#14725#15387#0" expanded="false" />
+                <marker date="1507889831222" expanded="false" signature="2965:3167" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cses/src/main/admin_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+              <folding>
+                <element signature="e#3504#3673#0" expanded="false" />
+                <element signature="e#3698#4348#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="oldboy" target-branch="master" />
+    </push-targets>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/azure/install_lb.ps1" />
+        <option value="$PROJECT_DIR$/day5/自定义format.py" />
+        <option value="$PROJECT_DIR$/day5/doc.py" />
+        <option value="$PROJECT_DIR$/day5/迭代器.py" />
+        <option value="$PROJECT_DIR$/day5/slots属性.py" />
+        <option value="$PROJECT_DIR$/day5/描述符.py" />
+        <option value="$PROJECT_DIR$/CSES/manager.py" />
+        <option value="$PROJECT_DIR$/CSES/src/admin.py" />
+        <option value="$PROJECT_DIR$/CSES/bin/start.py" />
+        <option value="$PROJECT_DIR$/CSES/lib/common.py" />
+        <option value="$PROJECT_DIR$/Cses/db/__init__.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/admin.py" />
+        <option value="$PROJECT_DIR$/day5/类的装饰器实现.py" />
+        <option value="$PROJECT_DIR$/Cses/src/admin.py" />
+        <option value="$PROJECT_DIR$/ATM/ATM/data/user_info/config.cfg" />
+        <option value="$PROJECT_DIR$/Cses/classrecord_ser.py" />
+        <option value="$PROJECT_DIR$/Cses/src/main/choose_progrem.py" />
+        <option value="$PROJECT_DIR$/Cses/src/main/teacher_main.py" />
+        <option value="$PROJECT_DIR$/day5/NIMA.py" />
+        <option value="$PROJECT_DIR$/day5/test爬.py" />
+        <option value="$PROJECT_DIR$/../Cses/Cses/src/main/choose_progrem.py" />
+        <option value="$PROJECT_DIR$/../Cses/Cses/src/services/school_ser.py" />
+        <option value="$PROJECT_DIR$/../Cses/Cses/src/services/manager_ser.py" />
+        <option value="$PROJECT_DIR$/../Cses/src/main/admin_main.py" />
+        <option value="$PROJECT_DIR$/Cses/db/classes.db" />
+        <option value="$PROJECT_DIR$/Cses/conf/settings.py" />
+        <option value="$PROJECT_DIR$/Cses/db/school.db" />
+        <option value="$PROJECT_DIR$/Cses/conf/__init__.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/course_ser.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/student_ser.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/manager_ser.py" />
+        <option value="$PROJECT_DIR$/Cses/src/main/__init__.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/school_ser.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/teacher_ser.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/test.py" />
+        <option value="$PROJECT_DIR$/Cses/src/main/student_main.py" />
+        <option value="$PROJECT_DIR$/Cses/readme" />
+        <option value="$PROJECT_DIR$/Cses/manager.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/classrecord_ser.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/class_ser.py" />
+        <option value="$PROJECT_DIR$/Cses/src/main/studyrecord_main.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/__init__.py" />
+        <option value="$PROJECT_DIR$/Cses/src/services/admin_ser.py" />
+        <option value="$PROJECT_DIR$/execl/test.py" />
+        <option value="$PROJECT_DIR$/Cses/db/studyrecord.db" />
+        <option value="$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py" />
+        <option value="$PROJECT_DIR$/atomcatpublish/1.py" />
+        <option value="$PROJECT_DIR$/Cses/src/main/admin_main.py" />
+        <option value="$PROJECT_DIR$/course system/bin/cource.py" />
+        <option value="$PROJECT_DIR$/course system/core/main.py" />
+        <option value="$PROJECT_DIR$/course system/core/uid.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-297" />
+    <option name="y" value="254" />
+    <option name="width" value="1940" />
+    <option name="height" value="983" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Python</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers ProjectPane="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType ProjectPane="true" />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="S4">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="S4">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="S4">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="S4">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="CSES">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/course system" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="ToolWindowTerminal.ShowToolbar" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="enum&#9;null&#9;null&#10;d&#9;null&#9;null" />
+  </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$" />
+    </excluded-roots>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\王琦渊运维\python\S4\Cses\src\services" />
+      <recent name="F:\王琦渊运维\python\S4\CSES" />
+      <recent name="F:\王琦渊运维\python\svnp2p\02.Code\04.Task\trunk\crm-app\conf" />
+      <recent name="F:\王琦渊运维\python\S4\day2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\王琦渊运维\python\S4\execl" />
+      <recent name="F:\王琦渊运维\python\S4\Cses\db" />
+      <recent name="F:\王琦渊运维\python\svnp2p\02.Code\04.Task\trunk\crm-app\common" />
+      <recent name="F:\王琦渊运维\python\svnp2p\02.Code\04.Task\trunk\Python_3.4.x\newP2p-py\common" />
+      <recent name="F:\王琦渊运维\python\S4\ftpindb\module" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.cource">
+    <configuration default="false" name="admin_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cses/src/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cses/src/main/admin_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="studyrecord_ser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cses/src/services" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="class_ser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cses/src/services" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cses/src/services/class_ser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/execl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/execl/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cource" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course system/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course system/bin/cource.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S1" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="S4" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ATM" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="S4" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/ATM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mysite" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mysite" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Python.ATM" />
+      <item index="1" class="java.lang.String" itemvalue="Django server.mysite" />
+      <item index="2" class="java.lang.String" itemvalue="Python.admin_main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.studyrecord_ser" />
+      <item index="4" class="java.lang.String" itemvalue="Python.class_ser" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="6" class="java.lang.String" itemvalue="Python.cource" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.cource" />
+        <item index="1" class="java.lang.String" itemvalue="Python.admin_main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.studyrecord_ser" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.class_ser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d91c31a3-4f58-46a9-a01e-20dc6243a028" name="Default" comment="" />
+      <created>1494318098924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494318098924</updated>
+    </task>
+    <task id="LOCAL-00001" summary="选课系统发布">
+      <created>1507882399311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507882399311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-297" y="254" width="1940" height="983" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3505319" sideWeight="0.6488414" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32263514" sideWeight="0.46541554" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32470587" sideWeight="0.33670214" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.011727079" sideWeight="0.4827586" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32588235" sideWeight="0.6106383" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36" sideWeight="0.45957446" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32470587" sideWeight="0.6632979" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="false" weight="0.23027718" sideWeight="0.7920277" order="0" side_tool="false" content_ui="tabs" x="212" y="267" width="432" height="457" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27564102" sideWeight="0.49255848" order="15" side_tool="false" content_ui="tabs" x="75" y="395" width="1686" height="201" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31595746" sideWeight="0.35178572" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39882353" sideWeight="0.49840426" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.015591779" sideWeight="0.51724136" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262317" sideWeight="0.49593967" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.49544072" order="14" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32772166" sideWeight="0.49366143" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.4445769" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.8493661" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33406836" sideWeight="0.49366143" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24327958" sideWeight="0.55542314" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2345679" sideWeight="0.49739" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19854586" sideWeight="0.86200714" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.005363528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2067938" sideWeight="0.13799283" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35817307" sideWeight="0.47854587" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="选课系统发布" />
+    <option name="LAST_COMMIT_MESSAGE" value="选课系统发布" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/admin_ser.py</url>
+          <line>427</line>
+          <option name="timeStamp" value="1349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="1393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="1394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="1395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="1396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="1397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="1398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="1399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="1400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="1401" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="1402" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Cses/db/classes.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ATM/ATM/atm_back/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ATM/ATM/atm_back/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5184">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ATM/ATM/atm_back/huabei.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ATM/ATM/atm_back/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ATM/ATM/atm_back/mysql_conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ATM/ATM/atm_back/userfunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ATM/ATM/atm_back/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/db/teacher.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day2/function1/file_handling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/db/admin.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/db/course.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/bin/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/main/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/teacher_ser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../svnp2p/02.Code/04.Task/trunk/crm-app/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/1552144221/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="2490" column="6" selection-start-line="2490" selection-start-column="6" selection-end-line="2490" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/class_ser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/student_ser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/main/student_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/main/choose_progrem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/main/studyrecord_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#169#182#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/main/teacher_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/classrecord_ser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/conf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execl/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execl/V5701512S0459_Detail_2016_9.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/pyExcelerator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execl/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3220">
+          <caret line="259" column="8" selection-start-line="259" selection-start-column="8" selection-end-line="259" selection-end-column="58" />
+          <folding>
+            <element signature="e#97#110#0" expanded="true" />
+            <element signature="e#481#988#0" expanded="false" />
+            <element signature="e#1031#1195#0" expanded="false" />
+            <element signature="e#1254#1479#0" expanded="false" />
+            <element signature="e#1543#2052#0" expanded="false" />
+            <element signature="e#2137#2740#0" expanded="false" />
+            <element signature="e#2825#3289#0" expanded="false" />
+            <element signature="e#3395#4091#0" expanded="false" />
+            <element signature="e#4145#4202#0" expanded="false" />
+            <element signature="e#4252#4647#0" expanded="false" />
+            <element signature="e#4692#5019#0" expanded="false" />
+            <element signature="e#5071#5311#0" expanded="false" />
+            <element signature="e#5356#5631#0" expanded="false" />
+            <element signature="e#5699#6053#0" expanded="false" />
+            <element signature="e#6097#6349#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/manager_ser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#211#308#0" expanded="false" />
+            <element signature="e#349#678#0" expanded="false" />
+            <element signature="e#724#792#0" expanded="false" />
+            <element signature="e#1128#1644#0" expanded="false" />
+            <element signature="e#1682#2065#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/db/student.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/db/studyrecord.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/studyrecord_ser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="e#167#177#0" expanded="true" />
+            <element signature="e#1357#1361#0" expanded="false" />
+            <element signature="e#1422#2032#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atomcatpublish/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/course_ser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/main/admin_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#3504#3673#0" expanded="false" />
+            <element signature="e#3698#4348#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/admin_ser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="378" column="21" selection-start-line="378" selection-start-column="21" selection-end-line="378" selection-end-column="21" />
+          <folding>
+            <element signature="e#96#109#0" expanded="true" />
+            <element signature="e#618#888#0" expanded="false" />
+            <element signature="e#925#1201#0" expanded="false" />
+            <element signature="e#1228#1553#0" expanded="false" />
+            <element signature="e#1580#1827#0" expanded="false" />
+            <element signature="e#1854#2094#0" expanded="false" />
+            <element signature="e#2184#2586#0" expanded="false" />
+            <element signature="e#2635#2914#0" expanded="false" />
+            <element signature="e#3226#3780#0" expanded="false" />
+            <element signature="e#3860#4453#0" expanded="false" />
+            <element signature="e#4533#4987#0" expanded="false" />
+            <element signature="e#5088#5769#0" expanded="false" />
+            <element signature="e#6970#7468#0" expanded="false" />
+            <element signature="e#7511#8182#0" expanded="false" />
+            <element signature="e#8222#8749#0" expanded="false" />
+            <element signature="e#8794#9021#0" expanded="false" />
+            <element signature="e#9062#9625#0" expanded="false" />
+            <element signature="e#9664#10488#0" expanded="false" />
+            <element signature="e#10538#11581#0" expanded="false" />
+            <element signature="e#11628#12546#0" expanded="false" />
+            <element signature="e#12586#12719#0" expanded="false" />
+            <element signature="e#12635#12719#0" expanded="false" />
+            <element signature="e#12756#13786#0" expanded="false" />
+            <element signature="e#14016#14036#0" expanded="false" />
+            <element signature="e#14725#15387#0" expanded="false" />
+            <marker date="1507889831222" expanded="false" signature="2965:3167" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cses/src/services/school_ser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course system/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course system/db/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course system/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course system/bin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course system/core/uid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#232#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course system/bin/course.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course system/core/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#232#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
