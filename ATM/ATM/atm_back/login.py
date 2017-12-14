@@ -27,14 +27,11 @@ def login_user():
         if choice == "":continue
         elif userfunction.get_rule_func(int(choice),userstatus) == False:
             break
-        elif userfunction.get_all_strdic_func(username,userstatus).get(int(choice)) == "修改密码":
+        if int(choice) not in str_show.keys():continue
+        elif userfunction.get_all_strdic_func(userstatus).get(int(choice)) != "修改密码" or "升级花呗会员":
              userfunction.get_rule_func(int(choice), userstatus)(username)
-             break
-        elif int(choice) not in str_show.keys():continue
         else:
             num = userfunction.get_rule_func(int(choice), userstatus)(username)
+            break
 
 
-
-
-# login_user()

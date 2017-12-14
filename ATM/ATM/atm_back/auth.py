@@ -20,6 +20,7 @@ def auth_common_permissions(func):
             return re
     return wrapper
 
+
 #
 #借款
 def auth_huabei_permissions(func):

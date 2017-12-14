@@ -5,3 +5,6 @@ Created on 2017年5月9日
 @author: WangQiyuan
 
 '''
+import sys
+sys.path.append("..")
+sys.path.append("../..")

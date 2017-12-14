@@ -25,8 +25,15 @@ import auth
 from prettytable import PrettyTable
 
 
+
+
+
+
+
 CONFIG_FILE = '..\\data\\user_info\\config.cfg'
 USER_INFO = "..\\data\\user_info\\"
+
+
 
 user_dic={
     "id":0,
@@ -36,6 +43,7 @@ user_dic={
     "phone":4,
     "balance":5,
     "user_status":6,
+    "user_huabei":7
 }
 
 # user_info目录下的文件操作
@@ -60,6 +68,7 @@ def get_user_info(username):
     list_user_info=str_user_info.split(";")
     return list_user_info
 
+#用户是否存在
 #获取用户id
 def get_user_value(value):#value即user_dic的key值
     user_value=user_dic.get(value)#获取行id
@@ -122,6 +131,13 @@ def isnot_phone(phone):#验证手机是否在库里
     else:
         return False
 
+def isnot_lock_username(user):
+    userstatus=get_user_onevalue(user,"user_status")
+    if userstatus == "lockuser":
+        return True#是锁定返回True
+    else:
+        return False
+
 #验证密码
 def isnot_passwd(user,input_pass,value="passwd"):
     true_pass=get_user_onevalue(user,"passwd")
@@ -169,33 +185,41 @@ def add_user_info(username,passwd,phonenum):#添加一个用户，生成卡号�
         user_id = since_the_growth("id")
         user_cardid = generate_cardid()
     user_passwd = actions.hash_m(passwd)  # 加密密码
-    cf.set(username, username, "{};{};{};{};{};0;common".format(user_id, user_cardid, username, user_passwd, phonenum))
+    cf.set(username, username, "{};{};{};{};{};0;common;0".format(user_id, user_cardid, username, user_passwd, phonenum))
     cf.write(open(CONFIG_FILE, "w"))
 
 #def lock_user(username):
 
 def fetch_single_user_info(username):#单用户列表
-    secs = __cfg()[1]  # 用户列表
-    single_user_info = PrettyTable(["id", "CardID", "username", "phone","balance","user_status"])  # ！！！留了一个status
+    #secs = __cfg()[1]  # 用户列表
+    single_user_info = PrettyTable(["id", "CardID", "username", "phone","balance","user_status","user_huabei"])  # ！！！留了一个status
     single_user_info.align["ID"] = "l"
     single_user_info.padding_width = 1
     single_user_info_list=get_user_info(username)
+    #print(single_user_info_list)
     del single_user_info_list[user_dic.get("passwd")]
-    single_user_info.add_row(single_user_info_list )
+    single_user_info.add_row(single_user_info_list)
     return single_user_info
+
 
 def fetch_users():#列出用户列表，管理员功能
     cf=__cfg()[0]
     secs = __cfg()[1]#用户列表
-    user_list = PrettyTable(["id","CardID","username","passwd","phone","balance","user_status"])  # ！！！留了一个status
+    user_list = PrettyTable(["id", "CardID", "username", "phone","balance","user_status","user_huabei"])  # ！！！留了一个status
     user_list.align["ID"] = "l"
     user_list.padding_width = 1
     for se in secs:
         list_user_info=get_user_info(se)
+        del list_user_info[user_dic.get("passwd")]
         user_list.add_row(list_user_info)
+    print(user_list)
     return user_list
 
-def change_pass(user):
+# def del_one_option(value):
+
+
+
+def change_pass(user):#更改密码
     import account
     input_pass=input("请输入旧密码")
     true_pass = isnot_passwd(user,input_pass, value="passwd")
@@ -204,6 +228,7 @@ def change_pass(user):
     str_user_info=change_user_info(user,"passwd",new_pass)
     print("更改成功,请重新登录")
     return "已更改"
+
 
 @auth.auth_common_permissions
 def query_balance(user,value="balance"):

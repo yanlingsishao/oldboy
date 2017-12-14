@@ -10,29 +10,33 @@ Created on 2017年5月9日
 import manager
 import actions
 import auth
+from logger import MyLogger
+import huabei
 
 
 CONFIG_FILE = '..\\data\\user_info\\config.cfg'
 USER_INFO = "..\\data\\user_info\\"
 
-ALL_USERRULE_DIC={"common":[1,2,6,7,8,10],
-         "huabei":[1,2,3,4,5,6,7,8,9,10],
-         "overdue":[1,2,4,5,6,7,8,9,10],
-         "lockuser":[10]
+ALL_USERRULE_DIC={"common":[1,2,6,7,8,10,11],
+         "huabei":[1,2,3,4,5,6,7,8,11],
+         "overdue":[1,2,4,5,6,7,8,11],
+         "lockuser":[11]
          }
 
 def func_oper():
     huabei_operation = {
-        1: (user_deposit,"存款"),
-        2: (user_draw,"取款"),
-        3:("","借款"),
-        4:("","还款"),
-        5:("","花呗账单"),
+        1:(user_deposit,"存款"),
+        2:(user_draw,"取款"),
+        3:(huabei.borrow_,"借款"),
+        4:(huabei.repayment,"还款"),
+        5:(huabei.show_borrow_info,"花呗账单"),
         6:(manager.query_balance,"查询余额"),
         7:(change_pass,"修改密码"),
-        8:("","转账"),
-        9:("","账单打印"),
-        10:(False,"退出登录"),
+        8:(transfer,"转账"),
+        #9:("","账单打印"),
+        10:(huabei.huabei_update,"升级花呗会员"),
+        11:(False,"退出登录"),
+
     }
     return huabei_operation
 
@@ -88,9 +92,11 @@ def login_begin_user():#用户登录
         ret = manager.isnot_username(username)
         if ret == True:
             print("用户验证正确")
+            MyLogger.info("用户【{}】验证正确".format(username))
             return username
         elif ret == False:
             print("用户验证错误")
+            MyLogger.warning("用户【{}】验证失败".format(username))
             continue
 
 def login_begin_cardid(user):#银行卡号输入
@@ -99,9 +105,11 @@ def login_begin_cardid(user):#银行卡号输入
         ret=manager.isnot_card(user,cardid)
         if ret == True:
             print("卡号验证正确")
+            MyLogger.info("卡号【{}】验证正确".format(cardid))
             return ret
         elif ret == False:
             print("卡号验证错误")
+            MyLogger.warning("卡号【{}】验证失败".format(cardid))
             continue
 
 def login_begin_pass(username):#密码登录验证
@@ -123,7 +131,7 @@ def user_deposit_rule(addmon):
     if int_addmon > 10000:
         print("您充值的钱过多，单次最多一百张100元人民币，")
         return False
-    if 10000%int_addmon == 0 and 100 >=10000/int_addmon >= 1:
+    elif int_addmon%100 == 0:
         print("ok,开始存款")
         return int_addmon
     else:
@@ -140,12 +148,11 @@ def user_deposit(user):
         if addmon1 == False:
             continue
         else:
-            now_balance=int(manager.get_user_onevalue(user,"balance"))#获取现在的余额.int类型
+            now_balance=float(manager.get_user_onevalue(user,"balance"))#获取现在的余额.int类型
             str_user_info=manager.change_user_info(user,"balance",str(now_balance+addmon1))#改变balance对应的值
             print("充值成功")
             manager.query_balance(user, value="balance")
             return str_user_info
-
 
 # 取款，规则：仅支持以下取款数额，最高每日不超过5万。
 def user_draw_rule(draw_num):#取款规则
@@ -161,11 +168,11 @@ def user_draw_rule(draw_num):#取款规则
 def user_draw(user):
     while True:
         print("您好，可以取100, 200, 500, 1000, 1500, 3000")
-        value=int(input("请输入取款额:"))
+        value=float(input("请输入取款额:"))
         draw_num=user_draw_rule(value)
         if draw_num == None:
             return draw_num
-        now_balance = int(manager.get_user_onevalue(user, "balance"))
+        now_balance = float(manager.get_user_onevalue(user, "balance"))
         if draw_num <= now_balance:
             str_user_info = manager.change_user_info(user, "balance", str(now_balance - draw_num))
             manager.query_balance(user, value="balance")
@@ -173,13 +180,8 @@ def user_draw(user):
         else:
             print("余额不足！！您当前的余额为{}元".format(now_balance))
 
-
-
-
 def exit_card():
     pass
-
-
 
 # 管理接口——————————————————————————————
 # 修改密码接口
@@ -191,45 +193,10 @@ def change_pass(username):
     manager.change_user_info(username,"passwd",hash_pass_m)
     print("请重新登录")
 
-
-
-
-
-
-
-#common权限
-# def common_rule(user):
-#     huabei_oper=func_oper(user)
-#     common_list={}
-#     count = 1
-#     for i in sorted(huabei_oper.keys()):
-#         if i in [1,2,6,7,8,10]:
-#             common_list.update({count:huabei_oper.get(i)})
-#             count+=1
-#     return common_list
-
-# def all_rule_strdic():
-#     huabei_oper=func_oper()
-#     all_rule_strdic={}
-#     for i in sorted(huabei_oper.keys()):#i 为key
-#         h = huabei_oper.get(i)
-#         all_rule_strdic.update({i:h[1]})
-#     return all_rule_strdic
-#
-# def all_rule_fundic():
-#     huabei_oper=func_oper()
-#     all_rule_fundic={}
-#     count = 1
-#     for i in sorted(huabei_oper.keys()):#i 为key
-#         h = huabei_oper.get(i)
-#         all_rule_fundic.update({count:h[0]})
-#         count+=1
-#     return all_rule_fundic
-
 def get_all_fundic(userstatus):
     all_dic = {}
     COUNT = 1
-    for i in sorted(func_oper().keys()):
+    for i in sorted(func_oper().keys()):#i在key里
         if i in ALL_USERRULE_DIC.get(userstatus):
             huabei_oper = func_oper()  #
             h = huabei_oper.get(i)[0]  #
@@ -238,14 +205,11 @@ def get_all_fundic(userstatus):
     return all_dic
 
 
-
 def get_rule_func(value,userstatus):
     all_dic= get_all_fundic(userstatus)
     func_rule=all_dic.get(value)
     return func_rule
 
-
-# print(get_rule_func(1,"huabei"))
 
 def get_all_strdic(username,userstatus):
     ALL_DIC = {}
@@ -263,7 +227,7 @@ def get_all_strdic(username,userstatus):
             COUNT +=1
     return ALL_DIC
 
-def get_all_strdic_func(username,userstatus):
+def get_all_strdic_func(userstatus):
     ALL_DIC = {}
     COUNT = 1
     for i in sorted(func_oper().keys()):
@@ -273,6 +237,60 @@ def get_all_strdic_func(username,userstatus):
             ALL_DIC[COUNT] = h
             COUNT +=1
     return ALL_DIC
+
+
+
+#-------------转账功能----------------------------
+def transfer_rule(user,otheruser):
+    transfer_num = int(input("请输入转帐金额:"))
+    otheruser_balance = float(manager.get_user_onevalue(otheruser, "balance"))#被转账人余额
+    user_balance = float(manager.get_user_onevalue(user,"balance"))#转账的余额
+    if user_balance >= transfer_num:#输入金额>=用户余额
+        transfer_balnce = str(transfer_num + otheruser_balance)
+        user_balance = str(user_balance - transfer_num)
+        str_otuser_info = manager.change_user_info(otheruser, "balance", transfer_balnce)
+        str_user_info = manager.change_user_info(user,"balance",user_balance)
+        return (str_otuser_info,str_user_info)
+    else:
+        print("抱歉，余额不足")
+        return False
+
+def transfer_rule_two(user,otheruser):
+    othuser_isnot=manager.isnot_username(otheruser)
+    if othuser_isnot == True:
+        user_isnot_lock = manager.isnot_lock_username(otheruser)
+        if user_isnot_lock == True:
+            print("抱歉，对方银行卡已锁定")
+            MyLogger.info("对方银行卡已锁定")
+            return False
+        print("开户名校验成功")
+        MyLogger.info("开户名校验成功")
+        cardid = input("请输入您要转账的银行卡号：")
+        cardid_isnot = manager.isnot_card(otheruser, cardid)  # 验证卡号
+        if cardid_isnot == True:
+            print("银行卡号校验成功")
+            MyLogger.info("银行卡号校验成功")
+            ret=transfer_rule(user,otheruser)
+            return False
+        else:
+            print("银行卡号校验失败")
+            MyLogger.warning("银行卡号校验失败")
+            return False
+
+def transfer(user):
+    while True:
+        otheruser=input("请输入您要转帐的对方开户名：")
+        transfer_status=transfer_rule_two(user,otheruser)
+        if transfer_status == False:
+            int_info=input("返回用户菜单:q,其他：重新转账")
+            if int_info == "q":
+                return False
+            else:
+                continue
+        else:
+            print("开户名校验失败")
+            MyLogger.warning("开户名校验失败")
+            continue
 
 
 

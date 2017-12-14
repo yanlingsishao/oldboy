@@ -43,22 +43,21 @@ def Esxi():
 def adm_main():
     msg = '''
     欢迎来到管理界面：
-        1、增加用户
-        2、删除用户
-        3、查找用户
-        4、解锁用户
-        5、退出管理
+        1、删除用户
+        2、所有用户查看
+        3、解锁用户
+        4、退出管理
         '''
     msg_dic = {
-        "1": add_user,
-        "2": del_user,
-        "3": fetch_user,
-        "4": unlock_user,
+        #"1": add_user,
+        "1": del_user,
+        "2": manager.fetch_users,
+        "3": unlock_user,
     }
     while True:
         print(msg)
         choice=input("请输入您的操作：")
-        if choice == "5": break
+        if choice == "4": break
         if choice not in msg_dic.keys(): continue
         res = msg_dic[choice]()
 
@@ -77,32 +76,39 @@ def add_user():
 #删除用户
 def del_user():
     wil_del_user=input("请输入您想要删除的用户：")
-    all_user=manager.cfg_read()
+    all_user=manager.__cfg()[1]
     if wil_del_user not in all_user:
         print("无此用户")
-        del_user()
     else:
-        # 执行删除
-        del_value = manager.del_one_option(wil_del_user)#删除用户ID
-        os.remove(USER_INFO+del_value)#删除用户数据文件
+        config=configparser.ConfigParser()
+        config.read(CONFIG_FILE)
+        config.remove_section(wil_del_user)
+        config.write(open(CONFIG_FILE, "w"))
+        print("删除成功")
     return wil_del_user
 
 #查找用户
-def fetch_user():
-    user_all=cfg_read()
-    count=0
-    user_list = PrettyTable(["ID", "name", "CardID", "status"])  # ！！！留了一个status
-    user_list.align["ID"] = "l"
-    user_list.padding_width = 1
-    for i in user_all:
-        value=get_option_old_value(i)#cardid值
-        user_list.add_row([count,i,value,"running"])
-        count+=1
-    print(user_list)
+# def fetch_user():
+#     user_all=cfg_read()
+#     count=0
+#     user_list = PrettyTable(["ID", "name", "CardID", "status"])  # ！！！留了一个status
+#     user_list.align["ID"] = "l"
+#     user_list.padding_width = 1
+#     for i in user_all:
+#         value=get_option_old_value(i)#cardid值
+#         user_list.add_row([count,i,value,"running"])
+#         count+=1
+#     print(user_list)
 
 # 解锁用户
 def unlock_user():
-    pass
+    unlock_user_info=input("请输入要解锁的账号:")
+    all_user = manager.__cfg()[1]
+    if unlock_user_info not in all_user:
+        print("无此用户")
+    else:
+        manager.change_user_info(unlock_user_info,"user_status","common")
+        print("解锁成功")
 # 退出程序
 
 

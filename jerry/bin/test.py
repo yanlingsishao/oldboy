@@ -5,3 +5,6 @@ Created on 2017年5月9日
 @author: WangQiyuan
 
 '''
+import  django
+import sys
+print(sys.path)

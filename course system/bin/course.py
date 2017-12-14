@@ -1,15 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2017-10-16 13:42
+# @Time    : 2017-10-01 13:42
 # @Author  : Jerry Wang
 # @Site    : 
-# @File    : cource.py
+# @File    : course.py
 # @Software: PyCharm
 
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-#version:3.5.2
-#author:wangeq
 
 import sys,os
 

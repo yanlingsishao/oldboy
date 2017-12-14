@@ -10,6 +10,7 @@ Created on 2017年6月6日
 #需要选择相应功能。具体如下：开户 、存款 、取款 、查询余额 、修改密码 、转账
 import sys
 import os
+import time
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from atm_back import account
 from atm_back import login
@@ -30,10 +31,14 @@ def login_atm():
     while True:
         print("欢迎来到One Piece".center(50, "*"))
         print(msg_overdue)
+
         choice = input("请输入您的操作：")
         if choice not in dic_login_atm.keys(): continue
         res = dic_login_atm[choice]()
 
 
-login_atm()
+
+if __name__ == "__main__":
+    login_atm()
+
 

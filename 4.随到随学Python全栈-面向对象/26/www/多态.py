@@ -11,8 +11,6 @@ class H2O:
             print('[%s]液化成水' %self.name)
         elif self.temperature > 100:
             print('[%s]温度太高变成了水蒸气' %self.name)
-    def aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa(self):
-        pass
 
 class Water(H2O):
     pass

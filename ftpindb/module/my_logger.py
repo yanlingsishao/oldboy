@@ -7,7 +7,7 @@ Created on 2017年7月27日
 '''
 import logging
 
-ATM_LOG="..\\logs\\all.log"
+ATM_LOG="..\\logs\\all.logs"
 
 
 

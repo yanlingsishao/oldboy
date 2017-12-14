@@ -1,0 +1,13 @@
+start.py   启动文件
+
+
+1 学校            ["name", "classes", "courses", "address", "schoolid"]
+2 课程            ["name","period","price","outline","classes","courseid"]
+3 班级            ["name","semester","course","date","student","teacher","classrescord","classid"]
+4 学生            ["name","sex","age","teacher","studentid"]
+5 老师            ["name","age","sex","student","id"]
+6 返回上一页
+
+
+
+

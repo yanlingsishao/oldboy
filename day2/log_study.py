@@ -9,7 +9,7 @@ import logging
 
 # logging.basicConfig(
 #     level=logging.DEBUG,
-#     filename="logger.log",
+#     filename="logger.logs",
 #     filemode="w",
 #     format="%(asctime)s [line%(lineno)s] %(message)s [%(levelname)s]",
 #
@@ -20,7 +20,7 @@ import logging
 # logging.warning('warning')
 # logging.error('error')
 # logging.critical('critical')
-# logging.log(10,'log') #如果level=40,则只有logging.critical和loggin.error的日志会被打印
+# logging.logs(10,'logs') #如果level=40,则只有logging.critical和loggin.error的日志会被打印
 #
 # -----------------------------------------logger
 def logger():

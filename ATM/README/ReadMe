@@ -1,6 +1,0 @@
-ATM
-   |--ATM
-   |   |
-   |   |--bin # ATM入口执行目录
-   |		atm.py # ATM入口执行文件
-   |

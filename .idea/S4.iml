@@ -6,5 +6,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="S1" />
     <orderEntry type="module" module-name="pythonstudy-master" />
+    <orderEntry type="module" module-name="mysite" />
+    <orderEntry type="module" module-name="newP2p-py" />
+    <orderEntry type="module" module-name="course system" />
   </component>
 </module>

@@ -5,3 +5,5 @@ Created on 2017年5月9日
 @author: WangQiyuan
 
 '''
+import sys
+print(sys.platform)
